@@ -1,0 +1,20 @@
+:root{--encre:#14213d;--ocre:#d9480f;--fond:#fbf9f4;--gris:#5c6370;--ligne:#e3ded2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:18px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--encre);background:var(--fond)}
+main,header,footer{max-width:640px;margin:0 auto;padding:0 20px}
+h1,h2{font-family:Georgia,"Times New Roman",serif;line-height:1.15;margin:0 0 .5em}
+h1{font-size:2.1rem}h2{font-size:1.5rem}
+section{padding:36px 0;border-top:1px solid var(--ligne)}
+.logo{padding:16px 0;font:700 1.1rem Georgia,serif;letter-spacing:.04em}
+.lead{font-size:1.15rem}
+.btn{display:block;text-align:center;background:var(--ocre);color:#fff;text-decoration:none;font-weight:700;padding:16px 20px;border-radius:6px;min-height:52px}
+.btn small{display:block;font-weight:400;opacity:.9}
+.carte{background:#fff;border:1px solid var(--ligne);border-radius:8px;padding:20px}
+.prix{font:700 2.4rem Georgia,serif}.prix span{font-size:1rem;font-family:system-ui;font-weight:400;color:var(--gris)}
+ul.b{padding-left:1.1em}ul.b li{margin:.5em 0}
+.garantie{border-left:4px solid var(--ocre);padding-left:14px;margin:18px 0}
+.note{font-size:.9rem;color:var(--gris)}
+details{border-bottom:1px solid var(--ligne);padding:12px 0}summary{font-weight:700;cursor:pointer}
+footer{padding:28px 20px 40px;font-size:.9rem;color:var(--gris)}footer a{color:var(--gris);margin-right:14px}
+.champ{background:#fff3cd;padding:0 3px}
+@media(min-width:700px){h1{font-size:2.8rem}}
